@@ -1,0 +1,90 @@
+<style>
+
+    *{
+      margin: 0%;
+    }
+  
+  .movie1 {
+    float: left;
+    width: 45%;
+    padding: 20px;
+    margin: 0px;
+  }
+  .movie2 {
+    float: right;
+    width: 45%;
+    padding: 20px;
+    margin: 0px;
+  }
+  .movie3 {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin: 2px;
+  }
+  .moviec4{
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin: 2px;
+  }
+  .movie5{
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin: 2px;
+  }
+  .movie6{
+      float: left;
+    width: 18%;
+    padding: 20px;
+    margin: 10px;
+  }
+  .movie7{
+      float: left;
+    width: 18%;
+    padding: 20px;
+    margin: 10px;
+  }
+  .movie8{
+      float: left;
+    width: 18%;
+    padding: 20px;
+    margin: 10px;
+  }
+  .movie9{
+      float: left;
+    width: 18%;
+    padding: 20px;
+    margin: 10px;
+  }
+  .movie10 {
+      float: left;
+      width: 100%;
+  
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 1024px) {
+    .row {
+      width: 100%;
+      background-color:lightgrey;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .row {
+      width: 10%;
+      background-color:lightseagreen;
+    }
+  }
+  @media screen and (max-width: 320px) 
+  {
+    .row {
+      width: 25%;
+      background-color:lightyellow;
+    }
+  }
+  </style>
